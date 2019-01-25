@@ -1,0 +1,91 @@
+header {
+	background: rgba(121, 0, 255, .25);
+	position: relative;
+	z-index: 5;
+	border-bottom: 2px solid #45236c;
+	.logo {
+		position: relative;
+		img {
+			position: absolute;
+			top: -10px;
+			left: 15px;
+		}
+	}
+	.navbar {
+		padding: 0;
+	}
+	.header-menu {
+		ul {
+			padding-left: 20px;
+			list-style-type: none;
+			margin-bottom: -2px;
+			li {
+				display: inline-block;
+				font-family: $exo-font;
+				color: #ffffff;
+				font-size: 18px;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin-right: 35px;
+				border-bottom: 2px solid transparent;
+				padding: 21px 0;
+				transition: .3s;
+				&:hover {
+					color: #8c57c7;
+					border-bottom: 2px solid #7145a3;
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.header-phone {
+		text-align: right;
+		a {
+			font-family: $exo-font;
+			font-size: 18px;
+			font-weight: 200;
+			display: inline-block;
+			background: url("../img/phone-icon.png") no-repeat center left;
+			padding-left: 30px;
+			span {
+				font-weight: 700;
+			}
+			&:first-child {
+				margin-right: 10px;
+				margin-top: 7px;
+			}
+		}
+	}
+}
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+@keyframes floating {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(15%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);
+	}
+	50% {
+		-webkit-transform: translateY(8%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}

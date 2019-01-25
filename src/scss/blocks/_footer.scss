@@ -1,0 +1,74 @@
+footer {
+	background: url("../img/footer-bg.png");
+	background-size: cover;
+	padding: 50px 0 26px 0;
+	.address {
+		background: url("../img/place.png") no-repeat 0 6px;
+		padding-left: 30px;
+		p {
+			font-family: $open-font;
+			font-weight: bold;
+			font-size: 18px;
+			text-align: left;
+			color: #ffffff;
+		}
+	}
+	.phone {
+		a {
+			display: block;
+			background: url("../img/phone.png") no-repeat 0 6px;
+			font-family: $open-font;
+			font-weight: bold;
+			font-size: 18px;
+			text-align: left;
+			color: #ffffff;
+			padding-left: 26px;
+		}
+	}
+	.footer-form {
+		p {
+			font-family: $exo-font;
+			font-size: 16px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #ffffff;
+		}
+		input {
+			font-family: $exo-font;
+			font-size: 10px;
+			padding-bottom: 6px;
+			font-weight: 700;
+			margin-bottom: 5px;
+		}
+		.btn {
+			width: 165px;
+			margin-top: 18px;
+			font-size: 12px;
+			padding: 6px 0;
+		}
+	}
+	.footer-menu {
+		margin-top: 45px;
+		ul {
+			padding-left: 0;
+			list-style-type: none;
+			li {
+				display: inline-block;
+				font-family: $open-font;
+				color: #ffffff;
+				font-size: 15px;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin-left: 40px;
+				border-bottom: 2px solid transparent;
+				transition: .3s;
+				&:hover {
+					border-bottom: 2px solid #2af9fd;
+				}
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

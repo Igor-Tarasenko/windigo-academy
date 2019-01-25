@@ -1,0 +1,383 @@
+@media screen and (max-width: 1920px) {
+  header {
+    background-size: initial;
+  }
+}
+@media screen and (max-width: 1900px) {
+  .about-header {
+    height: 440px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header {
+    background-position: 79% 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  header .header-menu ul li, header .language ul li {
+    font-size: 13px;
+  }
+  footer .footer-menu ul li {
+    margin-left: 23px;
+  }
+  .about-header h1 {
+    font-size: 40px;
+  }
+  .top_traiders .top-people_img {
+    height: 330px;
+  }
+	.recovery-header {
+		height: 530px;
+		h1 {
+			font-size: 40px;
+		}
+	}
+}
+@media screen and (max-width: 991px) {
+  .navbar-toggler {
+    background: url("../img/burger.png") no-repeat;
+    background-size: contain;
+    outline: none!important;
+    height: 20px;
+  }
+  .navbar {
+    margin-top: 12px;
+    padding: 0;
+  }
+	.navbar-collapse {
+		margin-top: 10px;
+		position: absolute;
+		top: 100%;
+		left: -10px;
+		background: #1c1970;
+		z-index: 20;
+		padding: 0 10px;
+	}
+  header .header-menu ul li, header .language ul li {
+    margin-left: 0;
+  }
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+  header .title {
+    margin-top: 50px;
+  }
+  header, .index-header {
+    height: 730px;
+  }
+  .section-1 {
+    background-position: 35% 0;
+  }
+  h2 {
+    font-size: 35px;
+  }
+	.association-recovery .title p {
+		font-size: 22px;
+	}
+  footer .address p, footer .phone a {
+    font-size: 14px;
+  }
+  footer .footer-form p {
+    font-size: 14px;
+  }
+  footer .footer-form .btn {
+    width: 150px;
+  }
+  footer .footer-menu ul li {
+    margin-left: 13px;
+    font-size: 12px;
+  }
+  .section-2 p {
+    font-size: 18px;
+  }
+  .section-1 p {
+    font-size: 20px;
+  }
+  .about-header {
+    height: 440px;
+    background: url(../img/about-first-bg.png) no-repeat 84% 0;
+  }
+  .license .img-block {
+    margin-top: -25px;
+    img {
+      width: 100%;
+    }
+  }
+  .carousel-item img {
+    max-height: 300px;
+  }
+  .count-main-block {
+    padding: 50px 0 50px 0;
+    .count-block {
+      margin-top: 30px;
+    }
+  }
+  .top_traiders .top-people_img {
+    height: 325px;
+  }
+  .block-with-gif .gif-block img {
+    height: 209px;
+  }
+  .form-about {
+    padding: 0 0 80px 0;
+  }
+  .form-about .section-2_img {
+    margin-top: 30px;
+  }
+	.association-recovery .recovery-title-text {
+		margin: 30px 0 0 0;
+	}
+	.recovery-step {
+		margin-top: 30px;
+	}
+	.association-recovery .recovery-step:nth-child(4) .circles {
+		margin: 15px 0;
+	}
+	.association-recovery .recovery-step:nth-child(3) .circles {
+		margin: 20px 0;
+	}
+	.association-recovery .recovery-step:nth-child(2) .circles {
+		margin: 13px 0;
+	}
+	.association-recovery .recovery-step:first-child .circles {
+		margin: 17px 0;
+	}
+	.section-steps .steps_first-block img {
+		max-width: 130px;
+	}
+	.section-steps .steps_text p {
+		font-size: 16px;
+	}
+	.form-recovery {
+		padding: 50px 0 80px 0;
+		.description {
+			margin-top: 0;
+		}
+		h2 {
+			text-align: center;
+		}
+		.section-2_img {
+			text-align: center;
+			margin-top: 30px;
+		}
+	}
+	.thanks-page .thanks-img img {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+  header .title p {
+    font-size: 16px;
+  }
+	.index-header {
+		height: 690px;
+	}
+  input {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .btn {
+    width: 320px;
+    margin-top: 25px;
+  }
+  .section-1 {
+    height: 260px;
+    padding-top: 50px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .footer-logo {
+    img {
+      width: 100%;
+    }
+  }
+  .footer-menu {
+    display: none;
+  }
+  footer .phone {
+    margin-top: 10px;
+  }
+  footer .phone a {
+    background: url(../img/phone.png) no-repeat 0 2px;
+  }
+  .about-header h1 {
+    font-size: 33px;
+  }
+  .license {
+    .license-text {
+      margin-bottom: 30px;
+    }
+    .img-block {
+      margin-top: -50px;
+      img {
+        max-width: 350px;
+      }
+    }
+  }
+  .top_traiders .top-people_img {
+    height: 260px;
+  }
+  .gif-main-block {
+    margin-top: 30px;
+  }
+	.association-recovery .title p {
+		font-size: 18px;
+	}
+	.recovery-count {
+		padding: 40px 0 50px 0;
+		.count-block {
+			margin-top: 40px;
+		}
+	}
+	.section-steps .steps_text ul {
+		padding-left: 103px;
+	}
+	.recovery-count-2 {
+		padding: 30px 0 50px 0;
+		.count-block {
+			margin-top: 40px;
+		}
+	}
+}
+@media screen and (max-width: 575px) {
+  header .language {
+    text-align: right;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .section-2 {
+    padding: 50px 0 50px 0;
+  }
+  .section-2_img {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .section-2 .section-2_form {
+    margin-top: 30px;
+  }
+  footer {
+    padding: 26px 0 26px 0;
+  }
+  .footer-logo {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  footer .address p {
+    padding: 7px 0;
+  }
+  .footer-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .footer-logo {
+    text-align: center;
+    img {
+      width: auto;
+    }
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .top_traiders .top-people_img {
+    height: auto;
+  }
+	.recovery-header h1 {
+		font-size: 30px;
+	}
+	.section-steps .steps_text ul {
+		padding-left: 20px;
+	}
+	header .mouse-img {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.index-header {
+		height: auto;
+	}
+	.recovery-header .header-form {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.recovery-header {
+		height: auto;
+	}
+	.error-page .main-text p {
+		font-size: 177px;
+		line-height: 177px;
+	}
+	.thanks-page .thanks-text p {
+		font-size: 16px;
+		&:first-child {
+			font-size: 30px;
+		}
+	}
+}
+@media screen and (max-width: 450px) {
+  .two-input {
+    display: block;
+  }
+  .two-input .form-group {
+    width: 100%;
+  }
+  header .header-form {
+    text-align: center;
+  }
+  header {
+    height: auto;
+    padding-bottom: 30px;
+    background-position: 46% 0;
+  }
+  header .mouse-img {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 410px) {
+  footer .address p {
+    padding: 0 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  header .logo {
+    img {
+      width: 100%;
+    }
+  }
+  .about-header h1 {
+    font-size: 23px;
+  }
+	.recovery-header h1 {
+		font-size: 29px;
+	}
+	.thanks-page .thanks-text p {
+		font-size: 15px;
+		&:first-child {
+			font-size: 25px;
+		}
+	}
+	.thanks-page .thanks-img img {
+		margin-left: -25px;
+	}
+}
+@media screen and (max-width: 350px) {
+  .btn {
+    width: 100%;
+  }
+	.error-page .main-text p {
+		font-size: 154px;
+	}
+}
+@media screen and (max-height: 630px) {
+	.error-page .first-text {
+		margin-top: 8%;
+	}
+}
+@media screen and (max-height: 500px) {
+	.error-page .btn {
+		margin-top: 0;
+	}
+}

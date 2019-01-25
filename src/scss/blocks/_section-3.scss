@@ -1,0 +1,90 @@
+.section-3 {
+	position: relative;
+	z-index: 10;
+	.fours-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 780px;
+		z-index: 1;
+	}
+	.title {
+		margin-top: 15px;
+	}
+	.section-3_description {
+		margin-top: 35px;
+		p {
+			font-family: $open-font;
+			font-weight: 300;
+			font-size: 16px;
+			color: #ffffff;
+			text-align: left;
+			&:first-child {
+				font-weight: 700;
+			}
+		}
+	}
+	.for_kids, .for_parents {
+		background: rgba(24, 12, 44, .5);
+		margin-top: 50px;
+		padding: 0 15px 40px 15px;
+	}
+	.for_parents {
+		background: rgba(43, 24, 79, .6);
+	}
+	.title-of-block {
+		padding: 14px 0;
+		p {
+			font-family: $exo-font;
+			font-weight: 700;
+			font-size: 28px;
+			color: #ffffff;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+	.for-kids_list, .for-parents_list {
+		list-style-type: none;
+		li {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			background: rgba(90, 57, 170, .2);
+			min-height: 76px;
+			padding: 5px 0 5px 15px;
+			margin-bottom: 10px;
+			img {
+				margin-right: 15px;
+				max-width: 44px;
+			}
+			p {
+				font-family: $open-font;
+				font-weight: 300;
+				font-size: 16px;
+				text-align: left;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: url("../img/packet-list-line.png") no-repeat;
+				background-size: contain;
+				height: 1px;
+				opacity: .5;
+			}
+		}
+	}
+	.for-parents_list {
+		li {
+			background: #180c2c;
+		}
+	}
+}

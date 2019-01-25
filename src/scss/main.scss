@@ -1,0 +1,134 @@
+@import 'libs';
+@import 'fonts';
+// colors
+$body-background: #170d26;
+$white-color: #ffffff;
+
+// fonts
+$open-font: 'Open Sans', sans-serif;
+$exo-font: 'Exo 2', sans-serif;
+
+html {
+  	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	color: #ffffff;
+	font-size: 16px;
+	background: $body-background;
+}
+h1 {
+	font-family: $exo-font;
+	font-size: 42px;
+	line-height: 48px;
+	padding-bottom: 0;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 0;
+	text-align: center;
+}
+h2 {
+	font-size: 42px;
+	color: #ffffff;
+	margin-bottom: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: $exo-font;
+	font-weight: 700;
+}
+h3 {
+	font-family: $open-font;
+	font-size: 43px;
+	color: #ffffff;
+	margin-bottom: 0;
+	text-align: center;
+}
+h4 {
+	font-family: $open-font;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0;
+	color: $white-color;
+}
+a {
+	color: inherit;
+	&:hover {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-bottom: 0;
+}
+.btn {
+	background: linear-gradient(to right, #7a22c5, #6e05e1);
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid #873ddc;
+	outline: none;
+	font-family: $exo-font;
+	font-size: 20px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 13px 0;
+	width: 100%;
+	text-align: center;
+	box-shadow: 0px 0px 25px 0px rgba(110,5,225,0.75);
+	transition: .3s;
+	&:hover {
+		background: linear-gradient(to left, #7a22c5, #6e05e1);
+	}
+}
+input {
+	width: 100%;
+	border: 1px solid #b675ff;
+	border-radius: 5px;
+	color: #8b56c6;
+	font-family: $exo-font;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 17px 0 17px 20px;
+	background: transparent;
+	outline: none;
+}
+::-webkit-input-placeholder {
+	color: #8b56c6;
+}
+::-moz-placeholder {
+	color: #8b56c6;
+}
+:-moz-placeholder {
+	color: #8b56c6;
+}
+:-ms-input-placeholder {
+	color: #8b56c6;
+}
+.yellow-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	p {
+		font-family: $exo-font;
+		font-weight: 900;
+		font-size: 24px;
+		color: #ffba00;
+		text-transform: uppercase;
+		margin: 0 17px;
+	}
+}
+.body-text {
+	position: relative;
+	z-index: 5;
+}
+
+@import 'index';
