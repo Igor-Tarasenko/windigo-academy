@@ -1,0 +1,69 @@
+.section-5 {
+	position: relative;
+	z-index: 10;
+	margin-top: 100px;
+	padding-bottom: 96px;
+	.six-bg {
+		position: absolute;
+		top: -348px;
+		right: 0;
+		width: 100%;
+		height: 793px;
+		z-index: 1;
+	}
+	.title {
+		margin-top: 15px;
+	}
+	.slayder {
+		margin-top: 50px;
+	}
+	.slide-img {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		img {
+			width: 100%;
+			border-radius: 25px;
+		}
+	}
+	.name, .position {
+		p {
+			font-family: $exo-font;
+			font-weight: 400;
+			font-size: 20px;
+			text-transform: uppercase;
+		}
+	}
+	.position {
+		p {
+			font-weight: 700;
+			font-size: 24px;
+		}
+	}
+	.description {
+		p {
+			font-family: $open-font;
+			font-weight: 300;
+			font-size: 16px;
+			color: #ffffff;
+			b {
+				font-weight: bold;
+			}
+		}
+	}
+	.carousel-control-prev, .carousel-control-next {
+		width: 10%;
+	}
+	.carousel-control-prev-icon {
+		background: url("../img/left-arrow.png") no-repeat center;
+		width: 25px;
+		height: 82px;
+		opacity: 1;
+	}
+	.carousel-control-next-icon {
+		background: url("../img/right-arrow.png") no-repeat center;
+		width: 25px;
+		height: 82px;
+		opacity: 1;
+	}
+}

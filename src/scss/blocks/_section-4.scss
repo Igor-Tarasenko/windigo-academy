@@ -1,0 +1,171 @@
+.section-4 {
+	position: relative;
+	z-index: 10;
+	margin-top: 100px;
+	.five-bg {
+		position: absolute;
+		top: 186px;
+		left: 0;
+		width: 100%;
+		height: 1073px;
+		z-index: 1;
+	}
+	.title {
+		margin-top: 15px;
+	}
+	.collapse-block {
+		margin-top: 40px;
+	}
+	.collapse-btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.btn {
+			width: auto;
+			padding: 3px 16px;
+			background: linear-gradient(to right, #531c86, #4c059b);
+			border: 1px transparent;
+			border-radius: 0;
+			box-shadow: none;
+			font-weight: 300;
+			font-size: 22px;
+			transition: .3s;
+			&:hover {
+				background: linear-gradient(to left, #531c86, #4c059b);
+			}
+		}
+		.active {
+			border: 1px solid #8a3de0;
+			box-shadow: 0px 0px 10px 4px rgba(110,5,225,0.75);
+			background: linear-gradient(to right, #7a22c5, #6e05e1);
+			&:hover {
+				background: linear-gradient(to left, #7a22c5, #6e05e1);
+			}
+		}
+		.games {
+			&:first-child {
+				margin-right: 30px;
+			}
+		}
+	}
+	.games-information-block {
+		margin-top: 50px;
+	}
+	.games-text {
+		p {
+			font-family: $open-font;
+			font-weight: bold;
+			color: #ffffff;
+			font-size: 18px;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		ul {
+			list-style-type: none;
+			padding-left: 0;
+			li {
+				background: url("../img/game-list.png") no-repeat 0 3px;
+				padding-left: 17px;
+				font-family: $open-font;
+				font-weight: 300;
+				font-size: 15px;
+				color: #ffffff;
+				margin-bottom: 25px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	.games-more {
+		margin-top: 10px;
+		text-align: center;
+	}
+	.more {
+		font-family: $exo-font;
+		font-weight: 700;
+		font-size: 18px;
+		color: #7900ff;
+		text-transform: uppercase;
+		text-decoration: underline;
+		background: transparent;
+		border: none;
+		cursor: pointer;
+	}
+	.hidden-games-text {
+		display: none;
+		margin-top: 25px;
+	}
+	.package-title {
+		border: 1px solid #802dd6;
+		padding: 18px 0;
+		p {
+			font-family: $exo-font;
+			font-weight: bold;
+			font-size: 32px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+	.price {
+		margin: 25px 0;
+		p {
+			font-family: $exo-font;
+			font-weight: bold;
+			font-size: 18px;
+			text-transform: uppercase;
+			text-align: center;
+			span {
+				font-size: 36px;
+			}
+		}
+	}
+	.contain {
+		margin-top: 30px;
+	}
+	.contain-title {
+		background: #390677;
+		padding: 5px 0;
+		p {
+			font-family: $exo-font;
+			font-weight: 300;
+			font-size: 16px;
+			color: #ffffff;
+			text-align: center;
+		}
+	}
+	.contain-text {
+		ul {
+			list-style-type: none;
+			li {
+				font-family: $open-font;
+				font-weight: 300;
+				font-size: 18px;
+				text-align: center;
+				color: #ffffff;
+				background: url("../img/packet-list.png") no-repeat top center;
+				padding: 20px 20px 6px 20px;
+				position: relative;
+				margin-top: 17px;
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					height: 1px;
+					background: linear-gradient(to right, rgba(98, 54, 151, 0), rgba(98, 54, 151, .7), rgba(98, 54, 151, 0));
+				}
+				&:last-child {
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	.package {
+		margin-top: 50px;
+	}
+}
