@@ -51,7 +51,8 @@ gulp.task('libs-build', function() {
 	return gulp.src(['node_modules/jquery/dist/jquery.min.js',
 					 'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
 					 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
-        			 'src/js/jquery.maskedinput.js'])
+        			 'src/js/jquery.maskedinput.js',
+                     'src/js/jquery.mCustomScrollbar.concat.min.js'])
 		.pipe(concat('libs.min.js'))
 		.pipe(gulp.dest('build/js'))
 });
@@ -59,7 +60,8 @@ gulp.task('libs-temp', function() {
 	return gulp.src(['node_modules/jquery/dist/jquery.min.js',
 					 'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
 					 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
-        			 'src/js/jquery.maskedinput.js'])
+        			 'src/js/jquery.maskedinput.js',
+                     'src/js/jquery.mCustomScrollbar.concat.min.js'])
 		.pipe(concat('libs.min.js'))
 		.pipe(gulp.dest('temp/js'))
 		.pipe(browsersync.reload({

@@ -2,7 +2,6 @@
 	position: relative;
 	z-index: 10;
 	padding-bottom: 96px;
-	height: 939px;
 	.seven-bg {
 		position: absolute;
 		top: 0;
@@ -13,6 +12,9 @@
 	}
 	.title {
 		margin-top: 15px;
+	}
+	.roadmap {
+		margin-top: 90px;
 	}
 	.roadmap-block {
 		padding: 0;
@@ -94,8 +96,25 @@
 	.activity-block {
 		display: flex;
 		margin-top: 25px;
-		padding: 0;
-		overflow-x: scroll;
+	}
+	.mCSB_container {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 0 0 40px 0;
+	}
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+		height: 23px;
+	}
+	.mCSB_scrollTools .mCSB_draggerRail {
+		background: #1f1136;
+		border-radius: 25px;
+		height: 15px;
+	}
+	.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+		background: #7900ff;
+		border-radius: 25px;
+		height: 17px;
 	}
 	.activity {
 		display: flex;

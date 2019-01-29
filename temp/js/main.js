@@ -1,6 +1,11 @@
 $(document).ready(function () {
     $(function($){
-        $("#phone").mask("+38(999)-99-99-999");
+        $("#phone, #phone2").mask("+38(999)-99-99-999");
+    });
+    $(".activity-block").mCustomScrollbar({
+        /*axis:"x" // horizontal scrollbar*/
+        setLeft: "0",
+        axis:"x"
     });
     $('.games-js').click(function () {
         $('.games-js').removeClass('active');

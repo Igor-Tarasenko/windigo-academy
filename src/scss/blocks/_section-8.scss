@@ -1,0 +1,136 @@
+.section-8 {
+	position: relative;
+	z-index: 10;
+	.eight-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 1043px;
+		z-index: 1;
+	}
+	.title {
+		margin-top: 15px;
+	}
+	.form {
+		margin-top: 40px;
+	}
+	.contact-title {
+		margin-top: 120px;
+	}
+	.contact-block {
+		margin-top: 70px;
+		box-shadow: 0px 0px 0px 20px rgba(255,255,255,0.04);
+	}
+	.contact-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		background: #000303;
+		padding: 23px 0;
+	}
+	.address p, .number a, .time p {
+		font-family: $open-font;
+		font-weight: 300;
+		font-size: 16px;
+		color: #ffffff;
+	}
+	.address {
+		background: url("../img/place-violet.png") no-repeat center left;
+		padding-left: 28px;
+	}
+	.number {
+		background: url("../img/phone-violet.png") no-repeat center left;
+		padding-left: 28px;
+	}
+	.time {
+		background: url("../img/clock-violet.png") no-repeat center left;
+		padding-left: 28px;
+	}
+	.contact-img {
+		padding: 0;
+		img {
+			width: 100%;
+		}
+	}
+	.contact-map {
+		padding: 0;
+	}
+	.contact-img, .contact-map {
+		height: 413px;
+	}
+	.footer {
+		margin-top: 50px;
+		padding-bottom: 25px;
+	}
+	.footer-logo {
+		margin-top: 15px;
+		img {
+			width: 100%;
+		}
+	}
+	.footer-menu {
+		ul {
+			list-style-type: none;
+			margin-top: 22px;
+			li {
+				display: inline-block;
+				margin-right: 15px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+			&:last-child {
+				margin-top: 15px;
+			}
+		}
+	}
+	.contact-footer {
+		p {
+			font-family: $exo-font;
+			font-weight: bold;
+			font-size: 18px;
+			text-transform: uppercase;
+			color: #ffffff;
+			margin-bottom: 10px;
+		}
+		a {
+			font-family: $exo-font;
+			font-size: 18px;
+			font-weight: 200;
+			display: inline-block;
+			background: url("../img/phone-icon.png") no-repeat center left;
+			padding-left: 30px;
+			span {
+				font-weight: 700;
+			}
+		}
+		.e-mail {
+			margin-top: 10px;
+			a {
+				font-weight: 400;
+				font-size: 18px;
+				color: #8b56c6;
+				text-decoration: underline;
+				background: none;
+				padding-left: 0;
+			}
+		}
+	}
+	.politiks {
+		a {
+			font-weight: 400;
+			font-size: 18px;
+			color: #8b56c6;
+			text-decoration: underline;
+			margin-top: 35px;
+			display: block;
+		}
+		p {
+			font-family: $exo-font;
+			font-weight: 400;
+			font-size: 18px;
+			color: #ffffff;
+		}
+	}
+}
