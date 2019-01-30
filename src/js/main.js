@@ -3,7 +3,6 @@ $(document).ready(function () {
         $("#phone, #phone2").mask("+38(999)-99-99-999");
     });
     $(".activity-block").mCustomScrollbar({
-        /*axis:"x" // horizontal scrollbar*/
         setLeft: "0",
         axis:"x"
     });
