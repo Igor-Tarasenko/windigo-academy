@@ -106,6 +106,7 @@
 	}
 	.section-5 .six-bg {
 		top: -227px;
+		background-position: center!important;
 	}
 	.section-8 .contact-img, .section-8 .contact-map {
 		height: 261px;
@@ -124,6 +125,13 @@
 	}
 	.section-8 .politiks a {
 		font-size: 14px;
+	}
+	.section-2 .right-img {
+		width: 100%;
+		background-position: center!important;
+	}
+	.section-2 .left-img {
+		display: none;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -175,6 +183,10 @@
 	.section-5 .six-bg {
 		top: -89px;
 	}
+	.section-3 .fours-bg {
+		background-size: contain!important;
+		height: 457px;
+	}
 }
 @media screen and (max-width: 575px) {
 	.section-8 .contact-block {
@@ -221,6 +233,14 @@
 	}
 	.section-8 .politiks {
 		text-align: center;
+	}
+	.section-2 .right-img {
+		display: none;
+	}
+	.section-2 .left-img {
+		width: 100%;
+		background-position: center!important;
+		display: block;
 	}
 }
 @media screen and (max-width: 500px) {
