@@ -1,13 +1,14 @@
 .section-2 {
 	position: relative;
 	padding-bottom: 180px;
+	z-index: 1;
 	.left-img {
 		position: absolute;
 		top: -70px;
 		left: 0;
 		width: 50%;
 		height: 704px;
-		z-index: 1;
+		z-index: 0;
 	}
 	.right-img {
 		position: absolute;
@@ -15,7 +16,7 @@
 		right: 0;
 		width: 50%;
 		height: 586px;
-		z-index: 1;
+		z-index: 0;
 	}
 	.title {
 		margin-top: 15px;

@@ -69,6 +69,24 @@
 	header .header-menu ul {
 		padding: 0 20px;
 	}
+	.fixed .navbar-collapse {
+		position: absolute;
+		top: 70px;
+		height: 100vh;
+		left: 0;
+		width: 100vw;
+		z-index: 1000;
+		background: rgba(121, 0, 255, 0.9);
+		ul {
+			padding: 0 20px;
+			position: relative;
+			top: 50%;
+			margin-top: -150px;
+			left: 50%;
+			margin-left: -77px;
+			width: 154px;
+		}
+	}
 	header .header-menu ul li {
 		padding: 10px 0;
 		margin-right: 0;
@@ -133,6 +151,9 @@
 	.section-2 .left-img {
 		display: none;
 	}
+	.section-4 {
+		margin-top: 40px;
+	}
 }
 @media screen and (max-width: 767px) {
 	header .header-phone a {
@@ -175,6 +196,14 @@
 	}
 	.section-4 .games-text {
 		margin-top: 15px;
+	}
+	.section-4 .contain-title {
+		p {
+			text-decoration: underline;
+		}
+	}
+	.section-4 .contain-text {
+		display: none;
 	}
 	.section-5 .slide-img img {
 		width: auto;
@@ -297,7 +326,7 @@
 }
 @media screen and (max-width: 379px) {
 	header .logo img {
-		top: -2px;
+		top: -19px;
 	}
 	.yellow-text p {
 		font-size: 21px;
@@ -307,5 +336,11 @@
 	}
 	.section-8 .contact-img, .section-8 .contact-map {
 		height: 232px;
+	}
+	header .header-phone a:first-child {
+		margin-right: 0;
+	}
+	header .header-phone a span {
+		display: none;
 	}
 }

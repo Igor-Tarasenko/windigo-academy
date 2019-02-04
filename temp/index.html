@@ -19,10 +19,9 @@
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-4 col-2 header-menu">
-                    <nav class="navbar navbar-expand-lg">
+                    <nav class="navbar navbar-expand-lg default">
                         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                                 data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
-                            <span><i class="fas fa-bars"></i></span>
                         </button>
                         <div class="navbar-collapse collapse" id="navbars" style="">
                             <ul class="navbar-nav">
@@ -101,7 +100,7 @@
     </div>
 </section>
 <main>
-    <section class="section-2" id="about">
+    <div class="section-2" id="about">
         <div class="left-img" style="background: url('./img/women-bg2.png') no-repeat center;
         background-size: cover;"></div>
         <div class="right-img" style="background: url('./img/horse-bg2.png') no-repeat left;
@@ -137,8 +136,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-3" id="parents">
+    </div>
+    <div class="section-3" id="parents">
         <div class="fours-bg" style="background: url('./img/ninja2.png') no-repeat center;
         background-size: cover;"></div>
         <div class="body-text">
@@ -229,8 +228,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-4" id="course">
+    </div>
+    <div class="section-4" id="course">
         <div class="five-bg"
              style="background: url('./img/warrior2.png') no-repeat center; background-size: contain;"></div>
         <div class="body-text">
@@ -244,7 +243,7 @@
                     <div class="col-12 title">
                         <h2>Курсы и тарифы</h2>
                     </div>
-                    <div class="col-12 collapse-block" id="collapse-group">
+                    <div class="col-12 order-md-0 order-3 collapse-block" id="collapse-group">
                         <div class="collapse-btn">
                             <button class="games btn games-js active" type="button" data-toggle="collapse"
                                     data-target="#dota" aria-expanded="true" aria-controls="cs"
@@ -252,6 +251,9 @@
                             <button class="games btn games-js" type="button" data-toggle="collapse"
                                     data-target="#cs" aria-expanded="false" aria-controls="dota"
                                     data-parent="#collapse-group">cs:go</button>
+                            <button class="games btn games-js" type="button" data-toggle="collapse"
+                                    data-target="#fortnite" aria-expanded="false" aria-controls="dota"
+                                    data-parent="#collapse-group">fortnite</button>
                         </div>
                         <div class="games-information-block collapse show" data-parent="#collapse-group" id="dota">
                             <div class="row">
@@ -409,8 +411,86 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="games-information-block collapse" data-parent="#collapse-group" id="fortnite">
+                            <div class="row">
+                                <div class="col-12 games-text">
+                                    <p>В программу курса по CS:GO входит:</p>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 games-text">
+                                    <ul>
+                                        <li>Стадии игры: лайнинг, мидгейм, лейтгейм</li>
+                                        <li>Отработка ластхита</li>
+                                        <li>Биндинг клавиш и управление</li>
+                                        <li>Контроль карты и расстановка вардов</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 games-text">
+                                    <ul>
+                                        <li>Анализ ошибок и реплеев</li>
+                                        <li>Разборы каждой роли и позиции</li>
+                                        <li>Инфа и правильная координация в командной игре</li>
+                                        <li>Ганги и использование смоков</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 games-text">
+                                    <ul>
+                                        <li>Тактики competitive dota</li>
+                                        <li>Максимизация % побед в MMR</li>
+                                        <li>Экономика и предметы</li>
+                                        <li>Связки и комбинации</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 games-text">
+                                    <ul>
+                                        <li>Принятие оптимальных решений</li>
+                                        <li>Тренировка скорости реакции</li>
+                                        <li>Зонинг вражеских героев</li>
+                                        <li>Пулл крипов</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 hidden-games-text">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 games-text">
+                                            <ul>
+                                                <li>Стадии игры: лайнинг, мидгейм, лейтгейм</li>
+                                                <li>Отработка ластхита</li>
+                                                <li>Биндинг клавиш и управление</li>
+                                                <li>Контроль карты и расстановка вардов</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 games-text">
+                                            <ul>
+                                                <li>Анализ ошибок и реплеев</li>
+                                                <li>Разборы каждой роли и позиции</li>
+                                                <li>Инфа и правильная координация в командной игре</li>
+                                                <li>Ганги и использование смоков</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 games-text">
+                                            <ul>
+                                                <li>Тактики competitive dota</li>
+                                                <li>Максимизация % побед в MMR</li>
+                                                <li>Экономика и предметы</li>
+                                                <li>Связки и комбинации</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 games-text">
+                                            <ul>
+                                                <li>Принятие оптимальных решений</li>
+                                                <li>Тренировка скорости реакции</li>
+                                                <li>Зонинг вражеских героев</li>
+                                                <li>Пулл крипов</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 games-more">
+                                    <button class="more more-js">Читать подробнее</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 package">
+                    <div class="col-lg-4 col-md-4 order-md-1 order-0 package">
                         <div class="package-title" style="background: url('./img/standart-bg.png') no-repeat center;
                         background-size: cover;">
                             <p>Стандарт</p>
@@ -440,7 +520,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 package">
+                    <div class="col-lg-4 col-md-4 order-md-2 order-1 package">
                         <div class="package-title" style="background: url('./img/premium-bg.png') no-repeat center;
                         background-size: cover;">
                             <p>премиум</p>
@@ -472,7 +552,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 package">
+                    <div class="col-lg-4 col-md-4 order-md-3 order-2 package">
                         <div class="package-title" style="background: url('./img/personal.png') no-repeat center;
                         background-size: cover;">
                             <p>личный тренер</p>
@@ -510,8 +590,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-5">
+    </div>
+    <div class="section-5">
         <div class="six-bg" style="background: url('./img/solder2.png') no-repeat right;"></div>
         <div class="body-text">
             <div class="container">
@@ -600,8 +680,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-6">
+    </div>
+    <div class="section-6">
         <div class="seven-bg" style="background: url('./img/dragon-bg2.png') no-repeat center;
         background-size: cover;"></div>
         <div class="body-text">
@@ -942,8 +1022,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-7">
+    </div>
+    <div class="section-7">
         <div class="body-text">
             <div class="container">
                 <div class="row">
@@ -961,8 +1041,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-8">
+    </div>
+    <div class="section-8">
         <div class="eight-bg" style="background: url('./img/girl-warrior2.png') no-repeat left;
         background-size: cover;"></div>
         <div class="body-text">
@@ -1083,7 +1163,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </main>
 <script src="./js/libs.min.js"></script>
 <script src="./js/main.js"></script>

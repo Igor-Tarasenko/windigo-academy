@@ -71,7 +71,7 @@ p {
 }
 .btn {
 	background: linear-gradient(to right, #7a22c5, #6e05e1);
-	border-radius: 5px;
+	border-radius: 0;
 	cursor: pointer;
 	border: 1px solid #873ddc;
 	outline: none;
@@ -95,7 +95,7 @@ button:focus {
 input {
 	width: 100%;
 	border: 1px solid #b675ff;
-	border-radius: 5px;
+	border-radius: 0;
 	color: #8b56c6;
 	font-family: $exo-font;
 	font-weight: 700;
@@ -134,7 +134,7 @@ input {
 }
 .body-text {
 	position: relative;
-	z-index: 5;
+	z-index: 1;
 }
 
 @import 'index';
