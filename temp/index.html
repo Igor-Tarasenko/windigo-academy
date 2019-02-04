@@ -7,6 +7,37 @@
     <link href="./css/main.css" rel="stylesheet">
 </head>
 <body>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 form-group">
+                                <p>Введтие свое имя:</p>
+                                <input type="text" class="form-control" placeholder="Имя">
+                            </div>
+                            <div class="col-lg-6 col-md-6 form-group">
+                                <p>Введтие свой E-mail:</p>
+                                <input type="email" class="form-control" placeholder="E-mail">
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6">
+                                <p>Введтие номер телефона:</p>
+                                <input type="text" name="phone" id="phone3" class="form-control"
+                                       placeholder="+38(___)-__-__-___">
+                            </div>
+                            <div class="col-lg-6 col-md-6 btn-block form-group">
+                                <button type="submit" class="btn" data-dismiss="modal">Отправить заявку</button>
+                                <p>Мы соблюдаем политику конфиденциальности</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <section class="section-1">
     <div class="first-bg"
          style="background: url('./img/stadium.png') no-repeat 50% 50%; background-size: cover;"></div>
@@ -123,14 +154,33 @@
                         <p>Мы находимся на территории комплекса Windigo Arena — ультрасовременного игрового центра площадью 1100 м2 в самом центре города Днепр, в ТРЦ Мост-Сити.</p>
                     </div>
                     <div class="col-12 btn-block">
-                        <a href="#" class="btn">стать киберспортсменом</a>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#exampleModalCenter">стать киберспортсменом</a>
                     </div>
-                    <div class="col-12 figure-block">
-                        <div class="figure">
-                            <img src="./img/uesf-logo.png" alt="">
+                    <div class="col-12 section-2_1">
+                        <div class="col-12 yellow-text">
+                            <img src="./img/star.png" alt="">
+                            <img src="./img/man-between-stars.png" alt="">
+                            <img src="./img/star.png" alt="">
                         </div>
-                        <div class="figure">
-                            <img src="./img/logo.png" alt="">
+                        <div class="col-12 title">
+                            <h2>Наши партнеры</h2>
+                        </div>
+                        <div class="col-12 figure-block">
+                            <div class="figure">
+                                <img src="./img/uesf-logo.png" alt="">
+                            </div>
+                            <div class="figure">
+                                <img src="./img/logo.png" alt="">
+                            </div>
+                            <div class="figure">
+                                <img src="./img/uesf-logo.png" alt="">
+                            </div>
+                            <div class="figure">
+                                <img src="./img/logo.png" alt="">
+                            </div>
+                            <div class="figure">
+                                <img src="./img/uesf-logo.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>

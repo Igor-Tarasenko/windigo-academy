@@ -9,7 +9,7 @@ $(document).ready(function () {
         return false;
     });
     $(function($){
-        $("#phone, #phone2").mask("+38(999)-99-99-999");
+        $("#phone, #phone2, #phone3").mask("+38(999)-99-99-999");
     });
     $('.collapse-btn').slick({
         infinite: true,

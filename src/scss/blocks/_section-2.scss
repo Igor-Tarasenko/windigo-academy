@@ -45,21 +45,28 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin-top: 40px;
+		flex-flow: row wrap;
+		margin-top: 20px;
 	}
 	.figure {
 		width: 320px;
 		height: 110px;
 		transform: skew(-30deg);
-		background: rgba(23, 12, 40, .3);
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		&:first-child {
-			background: #2b1245;
-		}
+		margin-top: 20px;
 		img {
 			transform: skew(30deg);
 		}
+		&:nth-child(2n) {
+			background: rgba(23, 12, 40, .3);
+		}
+		&:nth-child(2n+1) {
+			background: #2b1245;
+		}
+	}
+	.section-2_1 {
+		margin-top: 80px;
 	}
 }
