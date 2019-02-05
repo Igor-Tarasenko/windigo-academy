@@ -216,6 +216,10 @@
 		background-size: contain!important;
 		height: 457px;
 	}
+	.section-2 .figure img {
+		max-height: 70px;
+		max-width: 90px;
+	}
 }
 @media screen and (max-width: 575px) {
 	.section-8 .contact-block {
@@ -273,6 +277,10 @@
 	}
 	.modal-dialog {
 		padding: 20px 20px 50px 20px;
+	}
+	.section-2 .figure img {
+		max-height: 80px;
+		max-width: 120px;
 	}
 }
 @media screen and (max-width: 500px) {
@@ -345,5 +353,9 @@
 	}
 	header .header-phone a span {
 		display: none;
+	}
+	.section-2 .figure img {
+		max-height: 57px;
+		max-width: 58px;
 	}
 }
