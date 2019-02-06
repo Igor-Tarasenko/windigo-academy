@@ -54,9 +54,6 @@ $(document).ready(function () {
         $(".roadmap-js").removeClass('active');
         $(this).addClass('active');
     });
-    $('.contain-title').click(function () {
-       $(this).next().slideToggle();
-    });
 });
 function windowSize(){
     if ($(window).width() <= '991'){
