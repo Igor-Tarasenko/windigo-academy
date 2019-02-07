@@ -144,6 +144,24 @@ input {
 	background: #1c0935;
 	padding: 40px 40px 70px 40px;
 	margin: 6% auto;
+	position: relative;
+	.close-btn {
+		position: absolute;
+		top: -15px;
+		right: -15px;
+		background: url("../img/cancel.png") no-repeat;
+		background-size: contain;
+		width: 18px;
+		height: 18px;
+		outline: none;
+		border: none;
+		cursor: pointer;
+		opacity: .5;
+		transition: .3s;
+		&:hover {
+			opacity: 1;
+		}
+	}
 	.modal-content {
 		background: transparent;
 		border: none;

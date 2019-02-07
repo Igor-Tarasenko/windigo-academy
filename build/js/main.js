@@ -9,7 +9,7 @@ $(document).ready(function () {
         return false;
     });
     $(function($){
-        $("#phone, #phone2, #phone3").mask("+38(999)-99-99-999");
+        $("#phone, #phone2, #phone3").mask("+38(999)-999-99-99");
     });
     $('.collapse-btn').slick({
         infinite: true,
@@ -31,7 +31,7 @@ $(document).ready(function () {
         nextArrow: '<button type="button" class="slick-next"></button>',
         responsive: [
             {
-                breakpoint: 575,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
