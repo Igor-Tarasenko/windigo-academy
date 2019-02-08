@@ -17,10 +17,17 @@
 	.collapse-block {
 		margin-top: 40px;
 	}
+	.btn-block {
+		display: flex;
+		justify-content: center;
+		padding-top: 10px;
+	}
 	.slick-slider {
-		max-width: 215px;
+		width: 100%;
 		margin: 0 auto;
 		.slick-next, .slick-prev {
+			position: absolute;
+			top: 8px;
 			border: none;
 			height: 41px;
 			width: 20px;
@@ -35,41 +42,38 @@
 			background: url(../img/left-arrow.png) no-repeat center;
 			background-size: contain;
 			margin-right: 15px;
+			left: 38%;
+			z-index: 5;
 		}
 		.slick-next {
 			background: url(../img/right-arrow.png) no-repeat center;
 			background-size: contain;
 			margin-left: 15px;
+			right: 38%;
 		}
+	}
+	.slider-games-block {
+		outline: none;
 	}
 	.collapse-btn {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		.btn {
+			min-width: 132px;
 			width: auto;
 			padding: 3px 16px;
-			background: linear-gradient(to right, #531c86, #4c059b);
-			border: 1px transparent;
 			border-radius: 0;
-			box-shadow: none;
 			font-weight: 300;
 			font-size: 22px;
 			transition: .3s;
-			&:hover {
-				background: linear-gradient(to left, #531c86, #4c059b);
-			}
-		}
-		.active {
 			border: 1px solid #8a3de0;
 			box-shadow: 0px 0px 10px 4px rgba(110,5,225,0.75);
 			background: linear-gradient(to right, #7a22c5, #6e05e1);
+			cursor: inherit;
 			&:hover {
 				background: linear-gradient(to left, #7a22c5, #6e05e1);
 			}
-		}
-		.games {
-			margin-right: 30px;
 		}
 	}
 	.games-information-block {

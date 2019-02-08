@@ -12,13 +12,14 @@ $(document).ready(function () {
         $("#phone, #phone2, #phone3").mask("+38(999)-999-99-99");
     });
     $('.collapse-btn').slick({
-        infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerMode: true,
-        variableWidth: true,
+        draggable: false,
         prevArrow: '<button type="button" class="slick-prev"></button>',
         nextArrow: '<button type="button" class="slick-next"></button>'
+    });
+    $('.collapse-btn .slick-arrow').click(function () {
+        $('.hidden-games-text').hide(500);
     });
     $('.figure-block').slick({
         infinite: true,
@@ -42,10 +43,6 @@ $(document).ready(function () {
     $(".activity-block").mCustomScrollbar({
         setLeft: "0",
         axis:"x"
-    });
-    $('.games-js').click(function () {
-        $('.games-js').removeClass('active');
-        $(this).addClass('active');
     });
     $(".more-js").click(function () {
         $(this).parent().parent().find(".hidden-games-text").slideToggle();
