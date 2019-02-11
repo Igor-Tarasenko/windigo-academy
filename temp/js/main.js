@@ -14,12 +14,12 @@ $(document).ready(function () {
     $('.collapse-btn').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        draggable: false,
+        draggable: true,
         prevArrow: '<button type="button" class="slick-prev"></button>',
         nextArrow: '<button type="button" class="slick-next"></button>'
     });
     $('.collapse-btn .slick-arrow').click(function () {
-        $('.hidden-games-text').hide(500);
+        $('.hidden-games-text').removeClass('show-text');
     });
     $('.figure-block').slick({
         infinite: true,
@@ -45,7 +45,14 @@ $(document).ready(function () {
         axis:"x"
     });
     $(".more-js").click(function () {
-        $(this).parent().parent().find(".hidden-games-text").slideToggle();
+        let className = $(this).parent().parent().find(".hidden-games-text");
+        if( className.hasClass('show-text')){
+            className.removeClass('show-text');
+        }
+        else {
+            className.addClass('show-text');
+        }
+        return false;
     });
     $(".roadmap-js").click(function () {
         $(".roadmap-js").removeClass('active');

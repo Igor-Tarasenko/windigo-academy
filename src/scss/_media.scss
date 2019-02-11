@@ -38,6 +38,9 @@
 	.section-8 .politiks a {
 		margin-top: 16px;
 	}
+	.section-4 .hidden-games-text {
+		max-height: 300px;
+	}
 }
 @media screen and (max-width: 991px) {
 	header {
@@ -162,6 +165,9 @@
 	}
 	.section-4 .slick-slider .slick-prev {
 		left: 32%;
+	}
+	.section-4 .hidden-games-text {
+		max-height: 280px;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -293,6 +299,9 @@
 	.modal-dialog .close-btn {
 		top: 0;
 		right: 0;
+	}
+	.section-4 .hidden-games-text {
+		max-height: 183px;
 	}
 }
 @media screen and (max-width: 500px) {
