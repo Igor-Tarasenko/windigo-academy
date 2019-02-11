@@ -1,0 +1,23 @@
+.thanks-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	.thanks-block {
+		text-align: center;
+		h2 {
+			margin-bottom: 6px;
+		}
+		p {
+			font-family: $exo-font;
+			font-weight: 300;
+			text-transform: uppercase;
+			font-size: 32px;
+			margin-bottom: 70px;
+		}
+		a {
+			display: inline-block;
+			max-width: 320px;
+		}
+	}
+}
