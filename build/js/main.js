@@ -14,9 +14,17 @@ $(document).ready(function () {
     $('.collapse-btn').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        draggable: true,
+        draggable: false,
         prevArrow: '<button type="button" class="slick-prev"></button>',
-        nextArrow: '<button type="button" class="slick-next"></button>'
+        nextArrow: '<button type="button" class="slick-next"></button>',
+        responsive: [
+            {
+                breakpoint: 1099,
+                settings: {
+                    draggable: true
+                }
+            }
+        ]
     });
     $('.collapse-btn .slick-arrow').click(function () {
         $('.hidden-games-text').removeClass('show-text');

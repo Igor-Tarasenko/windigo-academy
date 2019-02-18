@@ -75,6 +75,17 @@
 				background: linear-gradient(to left, #7a22c5, #6e05e1);
 			}
 		}
+		.btn-order {
+			font-family: $exo-font;
+			box-shadow: none;
+			cursor: pointer;
+			display: block;
+			text-align: center;
+			width: 100%;
+			font-weight: 700;
+			font-size: 20px;
+			padding: 14px 16px;
+		}
 	}
 	.games-information-block {
 		margin-top: 50px;
